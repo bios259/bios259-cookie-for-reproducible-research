@@ -22,7 +22,7 @@ pip install cookiecutter jinja2-time
 To start a new science project:
 
 ```bash
-cookiecutter gh:bios259/reproducible-cookie
+cookiecutter gh:bios259/cookie-for-reproducible-research
 ```
 
 ## Project folder structure
