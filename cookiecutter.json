@@ -1,0 +1,11 @@
+{
+    "full_name": "Your Name",
+    "email": "sunet@stanford.edu",
+    "github_username": "bios259",
+    "project_name": "Name your research project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "project_short_description": "A short description of your researh project",
+    "date": "{% now 'local' %}",
+    "version": "0.1.0",
+    "_extensions": ["jinja2_time.TimeExtension"]
+}
