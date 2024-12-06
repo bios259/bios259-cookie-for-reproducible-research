@@ -53,7 +53,7 @@ results/logs/*
 *.env
 .dockerignore
 
-# Pixi
+# Pixi 
 .pixi
 
 # Miscellaneous
@@ -68,8 +68,8 @@ Thumbs.db
 bin/
 
 # exclude data from source control by default
-/data/processed
-/data/raw
+/data/processed/
+/data/raw/
 
 # exclude external models from source control
 /src/external/
